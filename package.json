@@ -1,8 +1,12 @@
 {
     "name": "primer_proyecto",
-    "description": "Primer proyecto",
-    "version": "0.0.1",
-    "dependencies": {},
+    "description": "Primer proyecto en Node-RED",
+    "version": "1.0.0",
+    "dependencies": {
+        "node-red-dashboard": "2.24.1",
+        "node-red-node-email": "1.8.2",
+        "node-red-node-twitter": "1.1.7"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flows.json",
